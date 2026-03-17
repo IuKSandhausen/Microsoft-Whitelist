@@ -78,3 +78,5 @@ c.msn.com CNAME .
 c.bing.com CNAME .
 bing.com CNAME .
 msn.com CNAME .
+*.microsoft.com CNAME .
+*.officeapps.live.com CNAME .
