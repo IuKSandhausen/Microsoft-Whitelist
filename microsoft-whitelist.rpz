@@ -80,6 +80,9 @@ security.microsoft.com CNAME .
 graph.microsoft.com CNAME .
 *.graph.microsoft.com CNAME .
 graph.windows.net CNAME .
+pipe.aria.microsoft.com CNAME .
+mobile.pipe.aria.microsoft.com CNAME .
+*.pipe.aria.microsoft.com CNAME .
 *.digicert.com CNAME .
 digicert.com CNAME .
 *.globalsign.com CNAME .
