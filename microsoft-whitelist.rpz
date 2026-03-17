@@ -1,4 +1,3 @@
-; --- Intune Core / ODJ Connector ---
 *.manage.microsoft.com CNAME .
 manage.microsoft.com CNAME .
 *.dm.microsoft.com CNAME .
@@ -9,8 +8,6 @@ enrollment.manage.microsoft.com CNAME .
 enrollment.microsoft.com CNAME .
 portal.manage.microsoft.com CNAME .
 *.agents.manage.microsoft.com CNAME .
-
-; --- Authentifizierung ---
 login.microsoftonline.com CNAME .
 *.login.microsoftonline.com CNAME .
 login.microsoft.com CNAME .
@@ -23,8 +20,6 @@ msauth.net CNAME .
 *.msftauth.net CNAME .
 msftauth.net CNAME .
 aadcdn.msftauth.net CNAME .
-
-; --- Azure / Entra ID ---
 *.microsoftonline.com CNAME .
 microsoftonline.com CNAME .
 *.microsoftonline-p.com CNAME .
@@ -36,8 +31,6 @@ windows.net CNAME .
 azure.net CNAME .
 *.azure.com CNAME .
 azure.com CNAME .
-
-; --- Microsoft 365 ---
 *.office.com CNAME .
 office.com CNAME .
 *.office365.com CNAME .
@@ -58,14 +51,10 @@ onenote.com CNAME .
 outlook.com CNAME .
 *.live.com CNAME .
 live.com CNAME .
-
-; --- Azure Front Door ---
 *.azurefd.net CNAME .
 azurefd.net CNAME .
 *.azureedge.net CNAME .
 azureedge.net CNAME .
-
-; --- Windows Update & Delivery Optimization ---
 *.update.microsoft.com CNAME .
 *.windowsupdate.com CNAME .
 windowsupdate.com CNAME .
@@ -74,41 +63,29 @@ windowsupdate.com CNAME .
 dl.delivery.mp.microsoft.com CNAME .
 adl.windows.com CNAME .
 tsfe.trafficshaping.dsp.mp.microsoft.com CNAME .
-
-; --- Azure Storage & Monitoring ---
 *.blob.core.windows.net CNAME .
 *.monitor.azure.com CNAME .
 monitor.azure.com CNAME .
-
-; --- Device Health Attestation ---
 *.dh.microsoft.com CNAME .
 dh.microsoft.com CNAME .
 *.attest.azure.net CNAME .
 attest.azure.net CNAME .
 intunemaape12.weu.attest.azure.net CNAME .
-
-; --- Microsoft Defender ---
 *.wdcp.microsoft.com CNAME .
 wdcp.microsoft.com CNAME .
 *.wd.microsoft.com CNAME .
 wd.microsoft.com CNAME .
 *.security.microsoft.com CNAME .
 security.microsoft.com CNAME .
-
-; --- Graph API ---
 graph.microsoft.com CNAME .
 *.graph.microsoft.com CNAME .
 graph.windows.net CNAME .
-
-; --- Zertifikate / OCSP ---
 *.digicert.com CNAME .
 digicert.com CNAME .
 *.globalsign.com CNAME .
 globalsign.com CNAME .
 *.entrust.net CNAME .
 entrust.net CNAME .
-
-; --- Sonstiges ---
 *.s-microsoft.com CNAME .
 s-microsoft.com CNAME .
 clientconfig.passport.net CNAME .
@@ -122,87 +99,3 @@ aka.ms CNAME .
 msn.com CNAME .
 *.bing.com CNAME .
 bing.com CNAME .
-
-
-manage.microsoft.com CNAME .
-dm.microsoft.com CNAME .
-endpoint.microsoft.com CNAME .
-enrollment.manage.microsoft.com CNAME .
-enrollment.microsoft.com CNAME .
-portal.manage.microsoft.com CNAME .
-agents.manage.microsoft.com CNAME .
-eus.manage.microsoft.com CNAME .
-weu.manage.microsoft.com CNAME .
-neu.manage.microsoft.com CNAME .
-login.microsoftonline.com CNAME .
-login.microsoft.com CNAME .
-login.live.com CNAME .
-device.login.microsoftonline.com CNAME .
-enterpriseregistration.windows.net CNAME .
-autologon.microsoftazuread-sso.com CNAME .
-msauth.net CNAME .
-msftauth.net CNAME .
-aadcdn.msftauth.net CNAME .
-microsoftonline.com CNAME .
-microsoftonline-p.com CNAME .
-aadcdn.microsoftonline-p.com CNAME .
-account.live.com CNAME .
-signup.live.com CNAME .
-windows.net CNAME .
-azure.net CNAME .
-azure.com CNAME .
-azurewebsites.net CNAME .
-azurefd.net CNAME .
-azureedge.net CNAME .
-trafficmanager.net CNAME .
-cloudapp.net CNAME .
-blob.core.windows.net CNAME .
-monitor.azure.com CNAME .
-office.com CNAME .
-office365.com CNAME .
-microsoft.com CNAME .
-officeapps.live.com CNAME .
-microsoftusercontent.com CNAME .
-outlook.com CNAME .
-sharepoint.com CNAME .
-teams.microsoft.com CNAME .
-teams.live.com CNAME .
-nexus.officeapps.live.com CNAME .
-onenote.com CNAME .
-onedrive.com CNAME .
-live.com CNAME .
-update.microsoft.com CNAME .
-windowsupdate.com CNAME .
-delivery.mp.microsoft.com CNAME .
-dl.delivery.mp.microsoft.com CNAME .
-adl.windows.com CNAME .
-tsfe.trafficshaping.dsp.mp.microsoft.com CNAME .
-dh.microsoft.com CNAME .
-attest.azure.net CNAME .
-intunemaape12.weu.attest.azure.net CNAME .
-wdcp.microsoft.com CNAME .
-wd.microsoft.com CNAME .
-security.microsoft.com CNAME .
-graph.microsoft.com CNAME .
-graph.windows.net CNAME .
-digicert.com CNAME .
-globalsign.com CNAME .
-entrust.net CNAME .
-ocsp.digicert.com CNAME .
-crl.globalsign.com CNAME .
-s-microsoft.com CNAME .
-clientconfig.passport.net CNAME .
-time.windows.com CNAME .
-powerapps.com CNAME .
-powerautomate.com CNAME .
-aka.ms CNAME .
-eu-mobile.events.data.microsoft.com CNAME .
-mobile.events.data.microsoft.com CNAME .
-events.data.microsoft.com CNAME .
-g.msn.com CNAME .
-c.msn.com CNAME .
-c.bing.com CNAME .
-bing.com CNAME .
-msn.com CNAME .
-*.microsoft.com CNAME .
-*.officeapps.live.com CNAME .
