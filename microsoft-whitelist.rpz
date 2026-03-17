@@ -1,0 +1,97 @@
+$TTL 60
+@ IN SOA localhost. root.localhost. (
+        2026031701 ; Serial (YYYYMMDDNN)
+        3600       ; Refresh
+        900        ; Retry
+        604800     ; Expire
+        60         ; Negative Cache TTL
+)
+@ IN NS localhost.
+
+; ============================================================
+; Microsoft Endpoints RPZ Whitelist – Stand: März 2026
+; Policy: PASSTHRU (Blocklisten-Einträge werden überschrieben)
+; Priorität: MUSS vor hblock und Curben eingetragen sein!
+; ============================================================
+
+; --- Intune Core / ODJ Connector ---
+*.manage.microsoft.com          CNAME rpz-passthru.
+manage.microsoft.com            CNAME rpz-passthru.
+*.dm.microsoft.com              CNAME rpz-passthru.
+*.endpoint.microsoft.com        CNAME rpz-passthru.
+enrollment.manage.microsoft.com CNAME rpz-passthru.
+enrollment.microsoft.com        CNAME rpz-passthru.
+portal.manage.microsoft.com     CNAME rpz-passthru.
+*.agents.manage.microsoft.com   CNAME rpz-passthru.
+
+; --- Authentifizierung ---
+login.microsoftonline.com       CNAME rpz-passthru.
+*.login.microsoftonline.com     CNAME rpz-passthru.
+login.microsoft.com             CNAME rpz-passthru.
+login.live.com                  CNAME rpz-passthru.
+device.login.microsoftonline.com CNAME rpz-passthru.
+enterpriseregistration.windows.net CNAME rpz-passthru.
+autologon.microsoftazuread-sso.com CNAME rpz-passthru.
+*.msauth.net                    CNAME rpz-passthru.
+*.msftauth.net                  CNAME rpz-passthru.
+aadcdn.msftauth.net             CNAME rpz-passthru.
+
+; --- Azure / Entra ID ---
+*.windows.net                   CNAME rpz-passthru.
+*.azure.net                     CNAME rpz-passthru.
+*.azure.com                     CNAME rpz-passthru.
+*.microsoftonline-p.com         CNAME rpz-passthru.
+*.aadcdn.microsoftonline-p.com  CNAME rpz-passthru.
+
+; --- Microsoft 365 ---
+*.office.com                    CNAME rpz-passthru.
+*.office365.com                 CNAME rpz-passthru.
+*.microsoft.com                 CNAME rpz-passthru.
+*.officeapps.live.com           CNAME rpz-passthru.
+*.microsoftusercontent.com      CNAME rpz-passthru.
+
+; --- Azure Front Door (NEU seit Dez 2025) ---
+*.azurefd.net                   CNAME rpz-passthru.
+*.azureedge.net                 CNAME rpz-passthru.
+
+; --- Windows Update & Delivery Optimization ---
+*.update.microsoft.com          CNAME rpz-passthru.
+*.windowsupdate.com             CNAME rpz-passthru.
+*.delivery.mp.microsoft.com     CNAME rpz-passthru.
+*.dl.delivery.mp.microsoft.com  CNAME rpz-passthru.
+dl.delivery.mp.microsoft.com    CNAME rpz-passthru.
+adl.windows.com                 CNAME rpz-passthru.
+tsfe.trafficshaping.dsp.mp.microsoft.com CNAME rpz-passthru.
+
+; --- Azure Storage & Monitoring ---
+*.blob.core.windows.net         CNAME rpz-passthru.
+*.monitor.azure.com             CNAME rpz-passthru.
+
+; --- Device Health Attestation (kein SSL-Inspection!) ---
+*.dh.microsoft.com              CNAME rpz-passthru.
+*.attest.azure.net              CNAME rpz-passthru.
+intunemaape12.weu.attest.azure.net CNAME rpz-passthru.
+
+; --- Microsoft Defender ---
+*.wdcp.microsoft.com            CNAME rpz-passthru.
+*.wd.microsoft.com              CNAME rpz-passthru.
+*.security.microsoft.com        CNAME rpz-passthru.
+
+; --- Graph API ---
+graph.microsoft.com             CNAME rpz-passthru.
+*.graph.microsoft.com           CNAME rpz-passthru.
+graph.windows.net               CNAME rpz-passthru.
+
+; --- Zertifikate / OCSP ---
+*.digicert.com                  CNAME rpz-passthru.
+*.globalsign.com                CNAME rpz-passthru.
+*.entrust.net                   CNAME rpz-passthru.
+
+; --- Sonstiges ---
+*.s-microsoft.com               CNAME rpz-passthru.
+clientconfig.passport.net       CNAME rpz-passthru.
+time.windows.com                CNAME rpz-passthru.
+*.powerapps.com                 CNAME rpz-passthru.
+*.powerautomate.com             CNAME rpz-passthru.
+
+
