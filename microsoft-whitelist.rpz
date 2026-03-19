@@ -104,3 +104,5 @@ aka.ms CNAME rpz-passthru.
 msn.com CNAME rpz-passthru.
 *.bing.com CNAME rpz-passthru.
 bing.com CNAME rpz-passthru.
+srtb.msn.com
+pti.store.microsoft.com
