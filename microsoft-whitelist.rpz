@@ -105,10 +105,10 @@ aka.ms CNAME rpz-passthru.
 msn.com CNAME rpz-passthru.
 *.bing.com CNAME rpz-passthru.
 bing.com CNAME rpz-passthru.
-srtb.msn.com
-pti.store.microsoft.com
-srtb.msn.com
-pti.store.microsoft.com
+srtb.msn.com rpz-passthru.
+pti.store.microsoft.com rpz-passthru.
+srtb.msn.com rpz-passthru.
+pti.store.microsoft.com rpz-passthru.
 
 ; === WhatsApp / Meta ===
 *.whatsapp.net CNAME rpz-passthru.
