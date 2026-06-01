@@ -116,4 +116,5 @@ pti.store.microsoft.com rpz-passthru.
 whatsapp.net CNAME rpz-passthru.
 *.c.whatsapp.net CNAME rpz-passthru.
 *.dit.whatsapp.net CNAME rpz-passthru.
+dit.whatsapp.net CNAME rpz-passthru.
 heise.de CNAME rpz-passthru.
