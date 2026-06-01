@@ -1,3 +1,4 @@
+; === Microsoft ===
 *.manage.microsoft.com CNAME rpz-passthru.
 manage.microsoft.com CNAME rpz-passthru.
 *.dm.microsoft.com CNAME rpz-passthru.
@@ -108,3 +109,12 @@ srtb.msn.com
 pti.store.microsoft.com
 srtb.msn.com
 pti.store.microsoft.com
+
+; === WhatsApp / Meta ===
+*.whatsapp.net CNAME rpz-passthru.
+*.whatsapp.com CNAME rpz-passthru.
+*.fbcdn.net    CNAME rpz-passthru.
+*.facebook.com CNAME rpz-passthru.
+whatsapp.net   CNAME rpz-passthru.
+*.c.whatsapp.net  CNAME rpz-passthru.
+*.dit.whatsapp.net CNAME rpz-passthru.
