@@ -107,14 +107,4 @@ msn.com CNAME rpz-passthru.
 bing.com CNAME rpz-passthru.
 srtb.msn.com CNAME rpz-passthru.
 pti.store.microsoft.com CNAME rpz-passthru.
-
-; === WhatsApp / Meta ===
-*.whatsapp.net CNAME rpz-passthru.
-*.whatsapp.com CNAME rpz-passthru.
-*.fbcdn.net CNAME rpz-passthru.
-*.facebook.com CNAME rpz-passthru.
-whatsapp.net CNAME rpz-passthru.
-*.c.whatsapp.net CNAME rpz-passthru.
-*.dit.whatsapp.net CNAME rpz-passthru.
-dit.whatsapp.net CNAME rpz-passthru.
-heise.de CNAME rpz-passthru.
+officecdn.microsoft.com CNAME rpz-passthru.
